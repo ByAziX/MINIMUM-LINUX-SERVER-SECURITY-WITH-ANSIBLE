@@ -6,13 +6,13 @@
   cd How-To-Secure-A-Linux-Server-With-Ansible
   ```
  
-4. [Create SSH-Public/Private-Keys](https://github.com/imthenachoman/How-To-Secure-A-Linux-Server#ssh-publicprivate-keys)
+3. [Create SSH-Public/Private-Keys](https://github.com/imthenachoman/How-To-Secure-A-Linux-Server#ssh-publicprivate-keys)
   ```
   ssh-keygen -t ed25519
   ```
    
-5. Change all variables in *group_vars/variables.yml* according to your needs.
-6. Enable SSH root access before running the playbooks:
+4. Change all variables in *group_vars/variables.yml* according to your needs.
+5. Enable SSH root access before running the playbooks:
    
   ```
   nano /etc/ssh/sshd_config
@@ -21,8 +21,8 @@
   [...]
   ```
 
-7. Recommended: configure static IP address on your system.
-8. Add your systems IP address to *hosts.yml*.
+6. Recommended: configure static IP address on your system.
+7. Add your systems IP address to *hosts.yml*.
 
 &nbsp;
 
@@ -78,7 +78,7 @@ Installed packages are:
 
 
 ## Plans / ToDos
-- [ ] use Ansible vault to securely store secrets
+- [ ] use Ansible vault to securely store secrets (In progress)
 
 ## Warning!
 Read all tasks carefully and make sure they do not break your system before using these playbooks! Do not rely solely on the Ansible playbooks for security! It is your responsibility to make sure all settings you need have been set and are working. This is just a starting point! Depending on your needs and goals make sure to further secure your system.
