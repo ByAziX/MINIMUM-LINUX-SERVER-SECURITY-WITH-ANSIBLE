@@ -1,0 +1,5 @@
+sshpub_location: /home/bob/.ssh/key.pub #the full path to your SSH public key ( e.g. /Users/username/.ssh/id_ed25519.pub )
+root_pw: "YOUR ROOT PASSWORD" #root password that should be set
+user_name: bob #username for the created user
+user_pw: "YOUR USER PASSWORD" #password for the new user
+ssh_port: 4854 #port number for ssh
