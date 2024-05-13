@@ -2,8 +2,9 @@
 1. Install [Ansible](https://docs.ansible.com/ansible/latest/installation_guide/intro_installation.html)
 2. git clone this repository
   ```
-  git clone https://github.com/moltenbit/How-To-Secure-A-Linux-Server-With-Ansible
-  cd How-To-Secure-A-Linux-Server-With-Ansible
+  
+  git clone https://github.com/ByAziX/MINIMUM-LINUX-SERVER-SECURITY-WITH-ANSIBLE.git
+  cd MINIMUM-LINUX-SERVER-SECURITY-WITH-ANSIBLE
   ```
  
 3. [Create SSH-Public/Private-Keys]()
