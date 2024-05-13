@@ -12,7 +12,7 @@
   ```
    
 4. Change all variables in *group_vars/variables.yml* according to your needs.
-5. Enable SSH root access before running the playbooks:
+5. Enable SSH root access (on the server) before running the playbooks:
    
   ```
   nano /etc/ssh/sshd_config
