@@ -6,7 +6,7 @@
   cd How-To-Secure-A-Linux-Server-With-Ansible
   ```
  
-3. [Create SSH-Public/Private-Keys](https://github.com/imthenachoman/How-To-Secure-A-Linux-Server#ssh-publicprivate-keys)
+3. [Create SSH-Public/Private-Keys]()
   ```
   ssh-keygen -t ed25519
   ```
