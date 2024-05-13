@@ -3,8 +3,8 @@
 2. git clone this repository
   ```
   
-  git clone https://github.com/ByAziX/MINIMUM-LINUX-SERVER-SECURITY-WITH-ANSIBLE.git
-  cd MINIMUM-LINUX-SERVER-SECURITY-WITH-ANSIBLE
+  git clone https://github.com/ByAziX/Minimum-Linux-Server-Security-With-Ansible.git
+  cd Minimum-Linux-Server-Security-With-Ansible
   ```
  
 3. [Create SSH-Public/Private-Keys]()
