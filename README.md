@@ -79,6 +79,7 @@ Installed packages are:
 
 
 ## Plans / ToDos
+- [ ] Documentation explaining server security best practices
 - [ ] use Ansible vault to securely store secrets (In progress)
 
 ## Warning!
